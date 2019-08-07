@@ -2,7 +2,7 @@
   "name": "doge-app",
   "productName": "doge-app",
   "version": "1.0.0",
-  "description": "Dogeify text!",
+  "description": "Karen, release me from this app at once!",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
