@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    npm run publish
-  displayName: 'npm install and publish'
+    npm run make
+  displayName: 'npm install and make'
