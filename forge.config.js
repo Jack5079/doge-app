@@ -1,5 +1,7 @@
 module.exports = {
-  'packagerConfig': {},
+  'packagerConfig': {
+    'icon': './src/assets/icon'
+  },
   'publishers': [{
     name: '@electron-forge/publisher-github',
     config: {
@@ -15,8 +17,8 @@ module.exports = {
       'name': '@electron-forge/maker-squirrel',
       'config': {
         'name': 'doge_app',
-        'iconUrl': 'https://github.com/Jack5079/doge-app/raw/master/src/assets/winicon.ico',
-        'setupIcon': './src/assets/winicon.ico',
+        'iconUrl': 'https://github.com/Jack5079/doge-app/raw/master/src/assets/icon.ico',
+        'setupIcon': './src/assets/icon.ico',
         'loadingGif': './src/assets/loading.gif'
       }
     },
