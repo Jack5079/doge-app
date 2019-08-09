@@ -15,7 +15,7 @@ module.exports = {
       'name': '@electron-forge/maker-squirrel',
       'config': {
         'name': 'doge_app',
-        'iconUrl': './src/assets/winicon.ico',
+        'iconUrl': 'https://github.com/Jack5079/doge-app/raw/master/src/assets/winicon.ico',
         'setupIcon': './src/assets/winicon.ico',
         'loadingGif': './src/assets/loading.gif'
       }
