@@ -1,6 +1,6 @@
 * {
   text-align: center;
-  font-family: 'Impact';
+  font-family: 'Impact', 'Comic Sans MS', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -8,11 +8,12 @@
 input {
   background: transparent;
   border: 0;
+  outline: 0;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 div {
-  background: url('./doge.jpg');
+  background: url('./assets/background.jpg');
   width: 100vw;
   height: 100vh;
   background-size: cover;

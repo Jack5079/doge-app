@@ -12,7 +12,8 @@ let mainWindow
 const createWindow = () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    nodeIntegration: true
+    nodeIntegration: true,
+    icon: __dirname + './assets/icon.png'
   })
 
   // and load the index.html of the app.
